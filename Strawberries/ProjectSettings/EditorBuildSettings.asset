@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: Assets/Scenes/Main Menu.unity
+    guid: f03a84304fbb8224bb3acff723738b50
+  - enabled: 1
+    path: Assets/Scenes/Lighting.unity
+    guid: 627ca81a81f7f814396dc3426c0e5f87
+  - enabled: 1
+    path: Assets/Scenes/RotateCamera.unity
+    guid: e0d31d85a22e786499c9e04c85a2578b
   m_configObjects: {}
