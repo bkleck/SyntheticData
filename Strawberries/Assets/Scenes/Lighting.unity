@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 701997627}
   - component: {fileID: 701997629}
   - component: {fileID: 701997628}
+  - component: {fileID: 701997630}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -257,7 +258,13 @@ LookAtConstraint:
   m_UseUpObject: 0
   m_IsContraintActive: 1
   m_IsLocked: 1
-  m_Sources: []
+  m_Sources:
+  - sourceTransform: {fileID: 1463406115}
+    weight: 1
+  - sourceTransform: {fileID: 839563914}
+    weight: 1
+  - sourceTransform: {fileID: 1275138562}
+    weight: 1
 --- !u!114 &701997629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -288,6 +295,23 @@ MonoBehaviour:
         enabled: 1
         annotationId: f9f22e05-443f-4602-a422-ebe4ea9b55cb
         idLabelConfig: {fileID: 11400000, guid: 9fc2354f7eba7a44c98d49afb6b126b3, type: 2}
+--- !u!114 &701997630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701997623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b85e54e30bb74162b2d6bca9b68f5482, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &839563914 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8201321914841851266, guid: c47524fcc207c984fbb2f1f4b2f57ebb, type: 3}
+  m_PrefabInstance: {fileID: 8201321914003414792}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &901955435
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,7 +323,7 @@ GameObject:
   - component: {fileID: 901955437}
   - component: {fileID: 901955436}
   m_Layer: 0
-  m_Name: Scenario 1
+  m_Name: Scenario 1 (Lighting)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -376,6 +400,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1275138562 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9127459046652049876, guid: cbbe8b0aafdde874aa5d0a3d4521c832, type: 3}
+  m_PrefabInstance: {fileID: 9127459045779696598}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1358447718
 GameObject:
   m_ObjectHideFlags: 0
@@ -445,7 +474,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -620,6 +649,18 @@ PrefabInstance:
     - target: {fileID: 3649006541589579079, guid: 1c1582bd6725ba843b03027da6c09c2f, type: 3}
       propertyPath: m_RootOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3649006541589579079, guid: 1c1582bd6725ba843b03027da6c09c2f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3649006541589579079, guid: 1c1582bd6725ba843b03027da6c09c2f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3649006541589579079, guid: 1c1582bd6725ba843b03027da6c09c2f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3649006541589579079, guid: 1c1582bd6725ba843b03027da6c09c2f, type: 3}
       propertyPath: m_LocalPosition.x
