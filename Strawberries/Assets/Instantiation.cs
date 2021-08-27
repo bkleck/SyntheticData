@@ -9,7 +9,7 @@ public class Instantiation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Instantiate(myPrefab, new Vector3(133, 174, -211), Quaternion.identity);
+        Instantiate(myPrefab, transform.position, transform.rotation);
     }
 
     // Update is called once per frame
