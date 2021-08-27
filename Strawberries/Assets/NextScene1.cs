@@ -3,22 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NextScene1 : MonoBehaviour
+public class ChangeScene : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public float delay = 100;
+    public int NewLevel = 2;
+
     void Start()
     {
-        
+        StartCoroutine(LoadLevelAfterDelay(delay));
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator LoadLevelAfterDelay(float delay)
     {
-        
-    }
-
-    public void LoadNextScene()
-    {
-        SceneManager.LoadScene(2);
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene(NewLevel);
     }
 }

@@ -1,0 +1,53 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 14.09.2020 13:42:06
+
+newmtl Strawberry_bush_v1_03
+	Ns 71.4286
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Strawberry_bush_v1_03_Diffuse.png
+	map_Kd Strawberry_bush_v1_03_Diffuse.png
+	map_Ks Strawberry_bush_v1_03_Specula.png
+	map_d Strawberry_bush_v1_03_Opacity.png
+	map_bump Map__6_Normal_Bump.tga
+
+newmtl Strawberry_bush_v1_02
+	Ns 71.4286
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Strawberry_bush_v1_02_Diffuse.png
+	map_Kd Strawberry_bush_v1_02_Diffuse.png
+	map_Ks Strawberry_bush_v1_02_Specular.png
+	map_d Strawberry_bush_v1_02_Opacity.png
+	map_bump Map__6_Normal_Bump.tga
+
+newmtl Strawberry_bush_v1_01
+	Ns 71.4286
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Strawberry_bush_v1_01_Diffuse.png
+	map_Kd Strawberry_bush_v1_01_Diffuse.png
+	map_Ks Strawberry_bush_v1_01_Specular.png
+	map_d Strawberry_bush_v1_01_Opacity.png
+	map_bump Map__6_Normal_Bump.tga
