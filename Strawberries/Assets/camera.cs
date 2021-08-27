@@ -4,7 +4,7 @@ public class camera : MonoBehaviour
 {
 
     public GameObject target;//the target object
-    public float speedMod = 30.0f;//a speed modifier
+    public float speedMod = 200.0f;//a speed modifier
     private Vector3 point;//the coord to the point where the camera looks at
 
     void Start()
