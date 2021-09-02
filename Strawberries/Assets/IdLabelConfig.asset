@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: IdLabelConfig
   m_EditorClassIdentifier: 
   m_LabelEntries:
-  - label: bottom
+  - label: front
     id: 0
+  - label: top
+    id: 1
+  - label: bottom
+    id: 2
+  - label: back
+    id: 3
   autoAssignIds: 1
   startingLabelId: 0
