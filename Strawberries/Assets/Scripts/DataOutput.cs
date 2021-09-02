@@ -5,6 +5,6 @@ public class DataOutput : MonoBehaviour
 {
     void Start()
     {
-        Configuration.localPersistentDataPath = @"C:\Users\Boon Kong\Desktop\synthetic_data\labo";
+        Configuration.localPersistentDataPath = @"C:\Users\Boon Kong\Desktop\synthetic_data\blue";
     }
 }
