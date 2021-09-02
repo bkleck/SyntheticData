@@ -142,7 +142,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &201647043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bef13124da1b7a40af6ad95b2ccf5ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPrefab: {fileID: 8351200452029905257, guid: a7e3af9bc86765946b7cfc23d94d157b, type: 3}
+  myPrefab: {fileID: 9048673608865665604, guid: 3c9c74884f956794f97265654e52a19e, type: 3}
 --- !u!4 &201647044
 Transform:
   m_ObjectHideFlags: 0
@@ -179,10 +179,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 201647042}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25e93d1131b9b37479b04489f305f156, type: 3}
+  m_Script: {fileID: 11500000, guid: 2bef13124da1b7a40af6ad95b2ccf5ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPrefab: {fileID: 7906948213570880710, guid: be596d0693f141249be4ad706bbfc9d0, type: 3}
+  myPrefab: {fileID: 6680916987232935665, guid: c1acc5b121b9a7c479bbf3df6b57fd97, type: 3}
 --- !u!114 &201647046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,10 +192,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 201647042}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 803fca212c584a7409bc78f03cc6fa60, type: 3}
+  m_Script: {fileID: 11500000, guid: 2bef13124da1b7a40af6ad95b2ccf5ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPrefab: {fileID: 5565068678482587439, guid: f5ec02454b46c4b41a24581f5088aa6c, type: 3}
+  myPrefab: {fileID: 5873222586147293750, guid: aeea54e160740fb47b0fc0b73750c2f3, type: 3}
 --- !u!114 &201647047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -205,10 +205,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 201647042}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b1933e0e56e54643836d8478aa75ecf, type: 3}
+  m_Script: {fileID: 11500000, guid: 2bef13124da1b7a40af6ad95b2ccf5ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPrefab: {fileID: 5304453713870691819, guid: a34d54b1388351941867e26a07ee06bb, type: 3}
+  myPrefab: {fileID: 7642051936009269544, guid: 7ba433e0915d4ec479eca3580831817e, type: 3}
 --- !u!1 &267131676
 GameObject:
   m_ObjectHideFlags: 0

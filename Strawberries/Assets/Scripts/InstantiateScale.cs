@@ -9,7 +9,7 @@ public class InstantiateScale : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GameObject Placeholder = Instantiate(myPrefab, transform.position, transform.rotation);
+        GameObject Placeholder = Instantiate(myPrefab, transform.position, myPrefab.transform.rotation * Quaternion.Euler(90f, 90f, 90f));
         Placeholder.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
     }
 
