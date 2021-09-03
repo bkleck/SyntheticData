@@ -677,6 +677,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Labelers:
   - id: 0
+  - id: 1
+  - id: 2
   description: 
   captureRgbImages: 1
   firstCaptureFrame: 0
@@ -690,9 +692,22 @@ MonoBehaviour:
     00000000:
       type: {class: BoundingBox2DLabeler, ns: UnityEngine.Perception.GroundTruth, asm: Unity.Perception.Runtime}
       data:
-        enabled: 1
+        enabled: 0
         annotationId: f9f22e05-443f-4602-a422-ebe4ea9b55cb
         idLabelConfig: {fileID: 11400000, guid: 9fc2354f7eba7a44c98d49afb6b126b3, type: 2}
+    00000001:
+      type: {class: InstanceSegmentationLabeler, ns: UnityEngine.Perception.GroundTruth, asm: Unity.Perception.Runtime}
+      data:
+        enabled: 0
+        annotationId: 1ccebeb4-5886-41ff-8fe0-f911fa8cbcdf
+        idLabelConfig: {fileID: 11400000, guid: 9fc2354f7eba7a44c98d49afb6b126b3, type: 2}
+    00000002:
+      type: {class: SemanticSegmentationLabeler, ns: UnityEngine.Perception.GroundTruth, asm: Unity.Perception.Runtime}
+      data:
+        enabled: 1
+        annotationId: 12f94d8d-5425-4deb-9b21-5e53ad957d66
+        labelConfig: {fileID: 11400000, guid: b204ebb08c2d03f47bc016ca554ff7a0, type: 2}
+        m_TargetTextureOverride: {fileID: 0}
 --- !u!114 &907617167
 MonoBehaviour:
   m_ObjectHideFlags: 0
