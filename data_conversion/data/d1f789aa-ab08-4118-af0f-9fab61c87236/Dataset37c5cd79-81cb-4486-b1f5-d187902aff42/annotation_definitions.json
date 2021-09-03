@@ -1,0 +1,49 @@
+{
+  "version": "0.0.1",
+  "annotation_definitions": [
+    {
+      "id": "12f94d8d-5425-4deb-9b21-5e53ad957d66",
+      "name": "semantic segmentation",
+      "description": "pixel-wise semantic segmentation label",
+      "format": "PNG",
+      "spec": [
+        {
+          "label_name": "bottom",
+          "pixel_value": {
+            "r": 0.0,
+            "g": 1.0,
+            "b": 0.0,
+            "a": 1.0
+          }
+        },
+        {
+          "label_name": "front",
+          "pixel_value": {
+            "r": 1.0,
+            "g": 0.92156863212585449,
+            "b": 0.015686275437474251,
+            "a": 1.0
+          }
+        },
+        {
+          "label_name": "back",
+          "pixel_value": {
+            "r": 1.0,
+            "g": 0.63310515880584717,
+            "b": 0.48293954133987427,
+            "a": 1.0
+          }
+        },
+        {
+          "label_name": "top",
+          "pixel_value": {
+            "r": 0.27371108531951904,
+            "g": 1.0,
+            "b": 0.85424506664276123,
+            "a": 1.0
+          }
+        }
+      ]
+    }
+  ]
+}
