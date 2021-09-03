@@ -3,8 +3,12 @@ using UnityEngine;
 
 public class DataOutput : MonoBehaviour
 {
+    public string myPath;
+    string template = @"C:\Users\Boon Kong\Desktop\synthetic_data\{0}";
+
     void Start()
     {
-        Configuration.localPersistentDataPath = @"C:\Users\Boon Kong\Desktop\synthetic_data\blue";
+        string message = string.Format(template, myPath);
+        Configuration.localPersistentDataPath = message;
     }
 }
