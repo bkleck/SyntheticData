@@ -731,7 +731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58b960c7668d0de42961b8529b938c65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPath: labo_3
+  myPath: labo_4
 --- !u!114 &1338319107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -982,7 +982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bef13124da1b7a40af6ad95b2ccf5ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPrefab: {fileID: 8822377470299429821, guid: f3a8163fcc01e4943bb7889efaffc108, type: 3}
+  myPrefab: {fileID: 9179068111760741597, guid: c333a83c3dac7a34b80948d7ad9c868a, type: 3}
 --- !u!4 &1361919999
 Transform:
   m_ObjectHideFlags: 0
