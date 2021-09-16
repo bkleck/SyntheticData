@@ -92,6 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8370302179372502631}
   - component: {fileID: 5795603539759663950}
+  - component: {fileID: -5812720636861640290}
   m_Layer: 0
   m_Name: labo-refined
   m_TagString: Untagged
@@ -130,3 +131,15 @@ MonoBehaviour:
   - labo
   useAutoLabeling: 0
   autoLabelingSchemeType: 
+--- !u!114 &-5812720636861640290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9179068111760741597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b85e54e30bb74162b2d6bca9b68f5482, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
