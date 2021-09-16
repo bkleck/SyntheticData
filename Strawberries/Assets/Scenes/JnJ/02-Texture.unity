@@ -409,7 +409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58b960c7668d0de42961b8529b938c65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPath: labo_4
+  myPath: labo_5
 --- !u!114 &577823692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1170,7 +1170,7 @@ MonoBehaviour:
   - id: 0
   constants:
     randomSeed: 539662031
-    totalIterations: 50
+    totalIterations: 40
     instanceCount: 1
     instanceIndex: 0
     framesPerIteration: 1
