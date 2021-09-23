@@ -9,9 +9,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: f03a84304fbb8224bb3acff723738b50
   - enabled: 1
-    path: Assets/Scenes/Lighting.unity
-    guid: 627ca81a81f7f814396dc3426c0e5f87
+    path: Assets/Scenes/JnJ/02-Lighting.unity
+    guid: 68d0728134e491e47904d44eea3ef078
   - enabled: 1
-    path: Assets/Scenes/RotateCamera.unity
-    guid: e0d31d85a22e786499c9e04c85a2578b
+    path: Assets/Scenes/JnJ/02-Rotate.unity
+    guid: a95f4f6dc27343646b8a364be98f3e4c
+  - enabled: 1
+    path: Assets/Scenes/JnJ/02-Texture.unity
+    guid: 6c1c30d21cb9dba4a8039df321c97015
+  - enabled: 1
+    path: Assets/Scenes/JnJ/02-Zoom.unity
+    guid: c53732273c436f34eaa1e95358ec5945
+  - enabled: 1
+    path: Assets/Scenes/JnJ/02-Box Lighting.unity
+    guid: 5eddc1190c7d4ca409c2af85fda78220
+  - enabled: 1
+    path: Assets/Scenes/JnJ/02- Box Rotate Objects.unity
+    guid: 3c30a805e5a6b38479bc98f610339ac7
+  - enabled: 1
+    path: Assets/Scenes/JnJ/02-Box Rotate.unity
+    guid: a559d62ca85bdb5498f44a2fab7936aa
   m_configObjects: {}
