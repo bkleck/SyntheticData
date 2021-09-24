@@ -2,6 +2,7 @@ using System.IO;
 using UnityEngine;
 using UnityEditor;
 
+/*
 public class OpenFilePanelExample : EditorWindow
 {
     [MenuItem("Example/Overwrite Texture")]
@@ -22,3 +23,4 @@ public class OpenFilePanelExample : EditorWindow
         }
     }
 }
+*/
