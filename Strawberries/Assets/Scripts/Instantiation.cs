@@ -11,7 +11,6 @@ public class Instantiation : MonoBehaviour
     void Start()
     {
         Instantiate(myPrefab, transform.position, myPrefab.transform.rotation);
-        SceneManager.LoadScene(2);
     }
 
     // Update is called once per frame

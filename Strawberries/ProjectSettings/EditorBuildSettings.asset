@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/JnJ/02-Lighting.unity
     guid: 68d0728134e491e47904d44eea3ef078
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/JnJ/02-Rotate.unity
     guid: a95f4f6dc27343646b8a364be98f3e4c
+  - enabled: 0
+    path: Assets/Scenes/JnJ/test.unity
+    guid: 8ebd1d9ea0632f54891b49142b157eb1
   - enabled: 0
     path: Assets/Scenes/JnJ/02-Texture.unity
     guid: 6c1c30d21cb9dba4a8039df321c97015

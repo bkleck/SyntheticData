@@ -14,10 +14,23 @@ public class MainMenu : MonoBehaviour
     public GameObject toggle5;
     public GameObject toggle6;
     public GameObject toggle7;
+    public string myPath;
+
+    public void SetPath()
+    {
+        // save output folder path to play preferences
+        // all scenes will use the same path
+        string template = @"C:\Users\Boon Kong\Desktop\synthetic_data\{0}";
+        string message = string.Format(template, myPath);
+
+        PlayerPrefs.SetString("path", message);
+    }
+
 
     // Start is called before the first frame update
     void Start()
     {
+
     }
 
     // Update is called once per frame
@@ -26,71 +39,56 @@ public class MainMenu : MonoBehaviour
         
     }
 
-    public void LoadGame()
-    {   
+    public void SaveMenuItems()
+    {
+        List<int> SceneList = new List<int>();
+
         if (toggle1.GetComponent<Toggle>().isOn = true)
         {
-            PlayerPrefs.SetInt("toggle1", 1);
-        }
-        else if (GameObject.Find("toggle1").GetComponent<Toggle>().isOn = false)
-        {
-            PlayerPrefs.SetInt("toggle1", 0);
+            SceneList.Add(1);
         }
 
         else if (GameObject.Find("toggle2").GetComponent<Toggle>().isOn = true)
         {
-            PlayerPrefs.SetInt("toggle2", 1);
-        }
-        else if (GameObject.Find("toggle2").GetComponent<Toggle>().isOn = false)
-        {
-            PlayerPrefs.SetInt("toggle2", 0);
+            SceneList.Add(2);
         }
 
         else if (GameObject.Find("toggle3").GetComponent<Toggle>().isOn = true)
         {
-            PlayerPrefs.SetInt("toggle3", 1);
+            SceneList.Add(3);
         }
-        else if (GameObject.Find("toggle3").GetComponent<Toggle>().isOn = false)
-        {
-            PlayerPrefs.SetInt("toggle3", 0);
-        }
+
 
         else if (GameObject.Find("toggle4").GetComponent<Toggle>().isOn = true)
         {
-            PlayerPrefs.SetInt("toggle4", 1);
+            SceneList.Add(4);
         }
-        else if (GameObject.Find("toggle4").GetComponent<Toggle>().isOn = false)
-        {
-            PlayerPrefs.SetInt("toggle4", 0);
-        }
+
 
         else if (GameObject.Find("toggle5").GetComponent<Toggle>().isOn = true)
         {
-            PlayerPrefs.SetInt("toggle5", 1);
+            SceneList.Add(5);
         }
-        else if (GameObject.Find("toggle5").GetComponent<Toggle>().isOn = false)
-        {
-            PlayerPrefs.SetInt("toggle5", 0);
-        }
+
 
         else if (GameObject.Find("toggle6").GetComponent<Toggle>().isOn = true)
         {
-            PlayerPrefs.SetInt("toggle6", 1);
+            SceneList.Add(6);
         }
-        else if (GameObject.Find("toggle6").GetComponent<Toggle>().isOn = false)
-        {
-            PlayerPrefs.SetInt("toggle6", 0);
-        }
+
 
         else if (GameObject.Find("toggle7").GetComponent<Toggle>().isOn = true)
         {
-            PlayerPrefs.SetInt("toggle7", 1);
-        }
-        else if (GameObject.Find("toggle7").GetComponent<Toggle>().isOn = false)
-        {
-            PlayerPrefs.SetInt("toggle7", 0);
+            SceneList.Add(7);
         }
 
+        int[] SceneArr = SceneList.ToArray();
+        string Scenes = string.Join("", SceneArr);
+        PlayerPrefs.SetString("Scenes", Scenes);
+        PlayerPrefs.SetInt("Count", 0);
+
+
+        /*
         // get index of current scene
         int currentIndex = SceneManager.GetActiveScene().buildIndex;
         int nextIndex = currentIndex + 1;
@@ -107,7 +105,7 @@ public class MainMenu : MonoBehaviour
             Debug.Log($"Next index is {nextIndex}");
             if (PlayerPrefs.GetInt(toggle) == 1)
             {
-                SceneManager.LoadScene(nextIndex);
+                SceneManager.LoadSceneAsync(nextIndex);
                 Debug.Log($"Scene to load is {nextIndex}");
                 // nextIndex = SceneManager.sceneCountInBuildSettings;
             }
@@ -117,8 +115,17 @@ public class MainMenu : MonoBehaviour
         if (nextIndex > SceneManager.sceneCountInBuildSettings)
         {
             // load menu
-            SceneManager.LoadScene(0);
+            SceneManager.LoadSceneAsync(0);
         }
+        */
+    }
 
+    public void LoadGame()
+    {
+        string Scenes = PlayerPrefs.GetString("Scenes");
+        int Count = PlayerPrefs.GetInt("Count");
+        int RunScene = (int)Char.GetNumericValue(Scenes[Count]);
+        SceneManager.LoadScene(RunScene);
+        PlayerPrefs.SetInt("Count", Count++);
     }
 }

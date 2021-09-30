@@ -4,10 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Perception.Randomization.Scenarios;
 
-
 public class SceneEnd : MonoBehaviour
-{ 
-    public FixedLengthScenario currentScenario;
+{
 
     // Start is called before the first frame update
     void Start()
@@ -18,9 +16,15 @@ public class SceneEnd : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (currentScenario.isActiveAndEnabled == false)
-        {
-            SceneManager.LoadScene(0);
-        }
+
+    }
+
+    public void ScenarioEnd()
+    {
+        // Do your stuff here like load scene
+        GetComponent<CustomScenario>().enabled = false;
+        Debug.Log("End of scene");
+        SceneManager.UnloadSceneAsync(1);
+        SceneManager.LoadScene(2);
     }
 }
