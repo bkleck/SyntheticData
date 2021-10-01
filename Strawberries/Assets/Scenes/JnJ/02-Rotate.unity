@@ -217,7 +217,7 @@ Transform:
   m_LocalScale: {x: 300, y: 100, z: 300}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &428832269
 GameObject:
@@ -261,6 +261,71 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &690478037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 690478040}
+  - component: {fileID: 690478039}
+  - component: {fileID: 690478038}
+  m_Layer: 0
+  m_Name: 'Scenario '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &690478038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690478037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea130d8385d26834b9eb620df48f17a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &690478039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690478037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 059400bdaa6c167468b4c495646a6fdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Randomizers: []
+  constants:
+    randomSeed: 539662031
+    totalIterations: 30
+    instanceCount: 1
+    instanceIndex: 1
+    framesPerIteration: 1
+  references:
+    version: 1
+--- !u!4 &690478040
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690478037}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 137.77002, y: 181.19324, z: -197.47035}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &711976377
 PrefabInstance:
@@ -584,7 +649,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58b960c7668d0de42961b8529b938c65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPath: labo_5
 --- !u!114 &1307341416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -863,7 +927,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1354307723
 GameObject:
@@ -1078,71 +1142,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1602813692
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1602813694}
-  - component: {fileID: 1602813695}
-  - component: {fileID: 1602813693}
-  m_Layer: 0
-  m_Name: 'Scenario '
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1602813693
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1602813692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea130d8385d26834b9eb620df48f17a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1602813694
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1602813692}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 137.77002, y: 181.19324, z: -197.47035}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1602813695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1602813692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 059400bdaa6c167468b4c495646a6fdc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Randomizers: []
-  constants:
-    randomSeed: 539662031
-    totalIterations: 20
-    instanceCount: 1
-    instanceIndex: 0
-    framesPerIteration: 1
-  references:
-    version: 1
 --- !u!1 &1942993298
 GameObject:
   m_ObjectHideFlags: 0
@@ -1153,7 +1152,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1942993301}
   - component: {fileID: 1942993300}
-  - component: {fileID: 1942993299}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -1161,18 +1159,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1942993299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1942993298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db00808ab9d04579b81b7f0dbd67b90f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &1942993300
 Light:
   m_ObjectHideFlags: 0

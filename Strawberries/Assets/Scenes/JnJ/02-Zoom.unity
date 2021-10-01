@@ -611,6 +611,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1058250549}
   - component: {fileID: 1058250548}
+  - component: {fileID: 1058250550}
   m_Layer: 0
   m_Name: 'Scenario '
   m_TagString: Untagged
@@ -627,13 +628,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1058250547}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d50076aff0af4515b4422166496fdd5e, type: 3}
+  m_Script: {fileID: 11500000, guid: 059400bdaa6c167468b4c495646a6fdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Randomizers: []
   constants:
     randomSeed: 539662031
-    totalIterations: 10
+    totalIterations: 20
     instanceCount: 1
     instanceIndex: 0
     framesPerIteration: 1
@@ -653,6 +654,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1058250550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058250547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea130d8385d26834b9eb620df48f17a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1179704913
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,7 +744,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58b960c7668d0de42961b8529b938c65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPath: labo_5
 --- !u!114 &1338319107
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -10,8 +10,8 @@ public class SceneEnd : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
-        
+    {   
+        Debug.Log($"The frame is {GetComponent<CustomScenario>()}");
     }
 
     // Update is called once per frame
@@ -27,8 +27,6 @@ public class SceneEnd : MonoBehaviour
 
         string Scenes = PlayerPrefs.GetString("Scenes");
         int Count = PlayerPrefs.GetInt("Count");
-        Debug.Log($"{Count}");
-        Debug.Log($"Length is {Scenes.Length}");
 
         // If count less than length of string, we continue indexing
         // else we just go back to main menu
@@ -37,8 +35,9 @@ public class SceneEnd : MonoBehaviour
             // Get the scene to run by indexing the characters in the string according to current count
             // then converting to int
             int RunScene = (int)Char.GetNumericValue(Scenes[Count]);
-            Debug.Log($"{RunScene}");
-            SceneManager.LoadScene(RunScene);
+            SceneManager.LoadSceneAsync(RunScene);
+            Debug.Log("Next scene loaded");
+            SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene());
 
             // After loading the scene, increase the count in PlayerPrefs
             PlayerPrefs.SetInt("Count", ++Count);
@@ -46,8 +45,12 @@ public class SceneEnd : MonoBehaviour
 
         else
         {
-            Debug.Log("0");
             SceneManager.LoadScene(0);
         }
+    }
+
+    public bool OnSceneEnd()
+    {
+        return false;
     }
 }

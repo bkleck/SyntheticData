@@ -55,31 +55,31 @@ public class MainMenu : MonoBehaviour
             SceneList.Add(2);
         }
 
-        if (toggle3.GetComponent<Toggle>().isOn = true)
+        if (toggle3.GetComponent<Toggle>().isOn == true)
         {
             SceneList.Add(3);
         }
 
 
-        if (toggle4.GetComponent<Toggle>().isOn = true)
+        if (toggle4.GetComponent<Toggle>().isOn == true)
         {
             SceneList.Add(4);
         }
 
 
-        if (toggle5.GetComponent<Toggle>().isOn = true)
+        if (toggle5.GetComponent<Toggle>().isOn == true)
         {
             SceneList.Add(5);
         }
 
 
-        if (toggle6.GetComponent<Toggle>().isOn = true)
+        if (toggle6.GetComponent<Toggle>().isOn == true)
         {
             SceneList.Add(6);
         }
 
 
-        if (toggle7.GetComponent<Toggle>().isOn = true)
+        if (toggle7.GetComponent<Toggle>().isOn == true)
         {
             SceneList.Add(7);
         }
