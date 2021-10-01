@@ -40,50 +40,55 @@ public class MainMenu : MonoBehaviour
     }
 
     public void SaveMenuItems()
-    {
+    {   
+        // Create a new list to store the toggle values
         List<int> SceneList = new List<int>();
 
-        if (toggle1.GetComponent<Toggle>().isOn = true)
+        // Store the toggle number in the list of is was turned on by the user
+        if (toggle1.GetComponent<Toggle>().isOn == true)
         {
             SceneList.Add(1);
         }
 
-        else if (GameObject.Find("toggle2").GetComponent<Toggle>().isOn = true)
+        if (toggle2.GetComponent<Toggle>().isOn == true)
         {
             SceneList.Add(2);
         }
 
-        else if (GameObject.Find("toggle3").GetComponent<Toggle>().isOn = true)
+        if (toggle3.GetComponent<Toggle>().isOn = true)
         {
             SceneList.Add(3);
         }
 
 
-        else if (GameObject.Find("toggle4").GetComponent<Toggle>().isOn = true)
+        if (toggle4.GetComponent<Toggle>().isOn = true)
         {
             SceneList.Add(4);
         }
 
 
-        else if (GameObject.Find("toggle5").GetComponent<Toggle>().isOn = true)
+        if (toggle5.GetComponent<Toggle>().isOn = true)
         {
             SceneList.Add(5);
         }
 
 
-        else if (GameObject.Find("toggle6").GetComponent<Toggle>().isOn = true)
+        if (toggle6.GetComponent<Toggle>().isOn = true)
         {
             SceneList.Add(6);
         }
 
 
-        else if (GameObject.Find("toggle7").GetComponent<Toggle>().isOn = true)
+        if (toggle7.GetComponent<Toggle>().isOn = true)
         {
             SceneList.Add(7);
         }
 
+        // convert list to array to string, and store it in Player Preferences
+        // Store a counter inside as well
         int[] SceneArr = SceneList.ToArray();
         string Scenes = string.Join("", SceneArr);
+        Debug.Log($"Scenes Array is {Scenes}");
         PlayerPrefs.SetString("Scenes", Scenes);
         PlayerPrefs.SetInt("Count", 0);
 
@@ -124,8 +129,13 @@ public class MainMenu : MonoBehaviour
     {
         string Scenes = PlayerPrefs.GetString("Scenes");
         int Count = PlayerPrefs.GetInt("Count");
+
+        // Get the scene to run by indexing the characters in the string according to current count
+        // then converting to int
         int RunScene = (int)Char.GetNumericValue(Scenes[Count]);
         SceneManager.LoadScene(RunScene);
-        PlayerPrefs.SetInt("Count", Count++);
+
+        // After loading the scene, increase the count in PlayerPrefs
+        PlayerPrefs.SetInt("Count", ++Count);
     }
 }

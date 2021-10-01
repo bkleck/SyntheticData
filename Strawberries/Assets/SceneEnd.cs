@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -21,10 +22,32 @@ public class SceneEnd : MonoBehaviour
 
     public void ScenarioEnd()
     {
-        // Do your stuff here like load scene
+        // disable the Scenario once it ends, to prevent auto shutdown of application
         GetComponent<CustomScenario>().enabled = false;
-        Debug.Log("End of scene");
-        SceneManager.UnloadSceneAsync(1);
-        SceneManager.LoadScene(2);
+
+        string Scenes = PlayerPrefs.GetString("Scenes");
+        int Count = PlayerPrefs.GetInt("Count");
+        Debug.Log($"{Count}");
+        Debug.Log($"Length is {Scenes.Length}");
+
+        // If count less than length of string, we continue indexing
+        // else we just go back to main menu
+        if (Count < Scenes.Length)
+        {
+            // Get the scene to run by indexing the characters in the string according to current count
+            // then converting to int
+            int RunScene = (int)Char.GetNumericValue(Scenes[Count]);
+            Debug.Log($"{RunScene}");
+            SceneManager.LoadScene(RunScene);
+
+            // After loading the scene, increase the count in PlayerPrefs
+            PlayerPrefs.SetInt("Count", ++Count);
+        }
+
+        else
+        {
+            Debug.Log("0");
+            SceneManager.LoadScene(0);
+        }
     }
 }
