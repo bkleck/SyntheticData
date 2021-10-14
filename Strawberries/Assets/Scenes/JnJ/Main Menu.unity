@@ -2331,14 +2331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3560d25ea91f3924c902533a27ceda22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toggle1: {fileID: 896317134}
-  toggle2: {fileID: 2044627068}
-  toggle3: {fileID: 2099363200}
-  toggle4: {fileID: 2133452881}
-  toggle5: {fileID: 827215981}
-  toggle6: {fileID: 1221497254}
-  toggle7: {fileID: 1787153030}
-  myPath: list_1
+  myPath: test
 --- !u!1 &1659575170
 GameObject:
   m_ObjectHideFlags: 0

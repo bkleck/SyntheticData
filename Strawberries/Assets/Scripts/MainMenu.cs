@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
+    /*
     public GameObject toggle1;
     public GameObject toggle2;
     public GameObject toggle3;
@@ -14,6 +15,7 @@ public class MainMenu : MonoBehaviour
     public GameObject toggle5;
     public GameObject toggle6;
     public GameObject toggle7;
+    */
     public string myPath;
 
     public void SetPath()
@@ -41,6 +43,7 @@ public class MainMenu : MonoBehaviour
 
     public void SaveMenuItems()
     {   
+        /*
         // Create a new list to store the toggle values
         List<int> SceneList = new List<int>();
 
@@ -91,6 +94,7 @@ public class MainMenu : MonoBehaviour
         Debug.Log($"Scenes Array is {Scenes}");
         PlayerPrefs.SetString("Scenes", Scenes);
         PlayerPrefs.SetInt("Count", 0);
+        */
 
 
         /*
@@ -127,6 +131,7 @@ public class MainMenu : MonoBehaviour
 
     public void LoadGame()
     {
+        /*
         string Scenes = PlayerPrefs.GetString("Scenes");
         int Count = PlayerPrefs.GetInt("Count");
 
@@ -137,5 +142,8 @@ public class MainMenu : MonoBehaviour
 
         // After loading the scene, increase the count in PlayerPrefs
         PlayerPrefs.SetInt("Count", ++Count);
+        */
+
+        SceneManager.LoadScene(1);
     }
 }
