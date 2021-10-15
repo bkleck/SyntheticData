@@ -1,0 +1,16 @@
+﻿2.1.2
+Changelog:
+-Fixed FBX bone recognition bug.
+-Fixed FBX negative geometry indices bug.
+-Fixed FBX invalid bone referencing bug.
+-Fixed FBX ASCII exponent value bug.
+-Added FBX mesh tangent importing.
+-Added FBX MergeSingleChildDocument option to allow merging single root child document nodes.
+-Fixed PLY vertex color parsing.
+-Fixed PLY texcoords parsing.
+-Fixed ScriptedImporter Unity 2020.2 bug
+-Fixed splash screen.
+-Fixed normals calculation.
+-Fixed duplicated names bug.
+-Added CancellationTokenSource Asset Loader Option, used to cancel the loading on demand.
+-Replaced file-based runtime importer disabling by compiler directive-based importer disabling.

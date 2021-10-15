@@ -5,11 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Instantiation : MonoBehaviour
 {
-    public GameObject myPrefab;
 
     // Start is called before the first frame update
     void Start()
     {
+        GameObject myPrefab = GameObject.Find("LoadedObject");
         Instantiate(myPrefab, transform.position, myPrefab.transform.rotation);
     }
 

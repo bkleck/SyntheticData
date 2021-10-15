@@ -133,9 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 47751574}
   - component: {fileID: 47751573}
-  - component: {fileID: 47751572}
-  - component: {fileID: 47751571}
-  - component: {fileID: 47751570}
   - component: {fileID: 47751575}
   m_Layer: 0
   m_Name: Placeholder
@@ -144,45 +141,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &47751570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 47751569}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bef13124da1b7a40af6ad95b2ccf5ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myPrefab: {fileID: 7646052613564990357, guid: 3c9c74884f956794f97265654e52a19e, type: 3}
---- !u!114 &47751571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 47751569}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bef13124da1b7a40af6ad95b2ccf5ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myPrefab: {fileID: 1957530202368813948, guid: c1acc5b121b9a7c479bbf3df6b57fd97, type: 3}
---- !u!114 &47751572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 47751569}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bef13124da1b7a40af6ad95b2ccf5ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myPrefab: {fileID: 1004524967651124233, guid: aeea54e160740fb47b0fc0b73750c2f3, type: 3}
 --- !u!114 &47751573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,7 +153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bef13124da1b7a40af6ad95b2ccf5ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPrefab: {fileID: 2442134302512196262, guid: f0117b50880c1f942888ea74d583f524, type: 3}
 --- !u!4 &47751574
 Transform:
   m_ObjectHideFlags: 0

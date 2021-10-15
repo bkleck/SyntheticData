@@ -13,7 +13,7 @@ public class PlacementRandomizer : Randomizer
     public FloatParameter Scale;
     public Vector3Parameter Location;
     public Vector3Parameter Rotation;
-    public GameObjectParameter prefabs;
+    // public GameObjectParameter prefabs;
     public BooleanParameter Chance;
 
     private GameObject Instance1;
@@ -24,7 +24,7 @@ public class PlacementRandomizer : Randomizer
     {
         if (Chance.Sample())
         {
-            Instance1 = GameObject.Instantiate(prefabs.Sample());
+            Instance1 = GameObject.Instantiate(GameObject.Find("LoadedObject"));
             Instance1.transform.position = Location.Sample();
             Instance1.transform.rotation = Quaternion.Euler(Rotation.Sample());
             Instance1.transform.localScale = Vector3.one * Scale.Sample();
@@ -32,7 +32,7 @@ public class PlacementRandomizer : Randomizer
 
         if (Chance.Sample())
         {
-            Instance2 = GameObject.Instantiate(prefabs.Sample());
+            Instance2 = GameObject.Instantiate(GameObject.Find("LoadedObject"));
             Instance2.transform.position = Location.Sample();
             Instance2.transform.rotation = Quaternion.Euler(Rotation.Sample());
             Instance2.transform.localScale = Vector3.one * Scale.Sample();
@@ -40,7 +40,7 @@ public class PlacementRandomizer : Randomizer
 
         if (Chance.Sample())
         {
-            Instance3 = GameObject.Instantiate(prefabs.Sample());
+            Instance3 = GameObject.Instantiate(GameObject.Find("LoadedObject"));
             Instance3.transform.position = Location.Sample();
             Instance3.transform.rotation = Quaternion.Euler(Rotation.Sample());
             Instance3.transform.localScale = Vector3.one * Scale.Sample();
