@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TriLibCore;
 using TriLibCore.General;
 using UnityEngine;
+using UnityEngine.Perception.GroundTruth;
 
 public class FileLoader : MonoBehaviour
 {
@@ -76,6 +77,7 @@ public class FileLoader : MonoBehaviour
 
         // Do not destroy object so that next scene it can be referenced
         myLoadedGameObject.name = "LoadedObject";
+        myLoadedGameObject.AddComponent<CustomLabeling>();
         DontDestroyOnLoad(myLoadedGameObject);
 
 
