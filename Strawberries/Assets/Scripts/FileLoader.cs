@@ -4,9 +4,12 @@ using TriLibCore;
 using TriLibCore.General;
 using UnityEngine;
 using UnityEngine.Perception.GroundTruth;
+using UnityEngine.UI;
 
 public class FileLoader : MonoBehaviour
 {
+    private Slider slider;
+
     // Lets the user load a new model by clicking a GUI button.
     private void OnGUI()
     {
@@ -32,7 +35,7 @@ public class FileLoader : MonoBehaviour
     // This event receives a Boolean indicating if any file has been selected on the file-picker dialog.
     private void OnBeginLoad(bool anyModelSelected)
     {
-
+        slider = gameObject.GetComponent<Slider>();
     }
 
     // This event is called when the model loading progress changes.
@@ -40,8 +43,8 @@ public class FileLoader : MonoBehaviour
     // The "progress" value comes as a normalized float (goes from 0 to 1).
     // Platforms like UWP and WebGL don't call this method at this moment, since they don't use threads.
     private void OnProgress(AssetLoaderContext assetLoaderContext, float progress)
-    {
-
+    {   
+            slider.value = progress;
     }
 
     // This event is called when there is any critical error loading your model.
