@@ -345,7 +345,7 @@ MonoBehaviour:
       data:
         enabled: 1
         annotationId: 12f94d8d-5425-4deb-9b21-5e53ad957d66
-        labelConfig: {fileID: 11400000, guid: 60437cdc73601dd41b9f2a6fd20bac93, type: 2}
+        labelConfig: {fileID: 11400000, guid: 1bc8befaa362a7845b3e515c5217c07e, type: 2}
         m_TargetTextureOverride: {fileID: 0}
 --- !u!114 &367686818
 MonoBehaviour:
@@ -553,6 +553,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9546a8975fe4783ac74e987ecca9635, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &764653968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 764653970}
+  - component: {fileID: 764653969}
+  m_Layer: 0
+  m_Name: LabelRef
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &764653969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764653968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b33f0bc2b78db642a758f07826d0dd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  labels:
+  - obj_1
+  useAutoLabeling: 0
+  autoLabelingSchemeType: 
+--- !u!4 &764653970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764653968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 505.2861, y: 175.07742, z: 124.737}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &794348244
 GameObject:
   m_ObjectHideFlags: 0
@@ -1415,19 +1462,10 @@ MonoBehaviour:
             id: 20
           z:
             id: 21
-        prefabs:
-          collapsed: 0
-          probabilities:
-          - 1
-          uniform: 1
-          m_Sampler:
-            id: 22
-          m_Categories:
-          - {fileID: 2442134302512196262, guid: f0117b50880c1f942888ea74d583f524, type: 3}
         Chance:
           collapsed: 0
           value:
-            id: 23
+            id: 22
           threshold: 0.5
     00000005:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
@@ -1524,12 +1562,6 @@ MonoBehaviour:
       data:
         value: 0
     00000016:
-      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
-      data:
-        range:
-          minimum: 0
-          maximum: 1
-    00000017:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:

@@ -77,7 +77,14 @@ public class FileLoader : MonoBehaviour
 
         // Do not destroy object so that next scene it can be referenced
         myLoadedGameObject.name = "LoadedObject";
-        myLoadedGameObject.AddComponent<CustomLabeling>();
+
+        // Add a label component to the instantiated object
+        // Make use of the user input to set the label ID of the object
+        myLoadedGameObject.AddComponent<Labeling>();
+        var labeling = myLoadedGameObject.GetComponent<Labeling>();
+        Debug.Log(PlayerPrefs.GetString("object"));
+        labeling.labels.Add(PlayerPrefs.GetString("object", "NULL"));
+
         DontDestroyOnLoad(myLoadedGameObject);
 
 
