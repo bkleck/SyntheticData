@@ -15,11 +15,11 @@ C:/Users/Boon Kong/AppData/Local/GitHubDesktop/app-2.9.0/SyntheticData/Strawberr
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65198
+51434
 Successfully changed project path to: C:/Users/Boon Kong/AppData/Local/GitHubDesktop/app-2.9.0/SyntheticData/Strawberries
 C:/Users/Boon Kong/AppData/Local/GitHubDesktop/app-2.9.0/SyntheticData/Strawberries
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 80.07 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 94.83 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -36,280 +36,72 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001896 seconds.
+Registered in 0.002025 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 65.63 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 66.45 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.072 seconds
+- Completed reload, in  1.078 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013466 seconds.
+Registered in 0.013194 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 67.13 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 68.41 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.837 seconds
+- Completed reload, in  2.070 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.88 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3447 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 165.0 MB.
-System memory in use after: 165.2 MB.
-
-Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3852.
-Total: 2.888300 ms (FindLiveObjects: 0.287500 ms CreateObjectMapping: 0.164400 ms MarkObjects: 2.346600 ms  DeleteObjects: 0.088600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/Instantiation.cs
-  artifactKey: Guid(2bef13124da1b7a40af6ad95b2ccf5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Instantiation.cs using Guid(2bef13124da1b7a40af6ad95b2ccf5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155ca368b3b71a1547a854fe13609a34') in 0.034869 seconds 
-  Import took 0.039662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Scripts/FrontScale.cs
-  artifactKey: Guid(d6b661d0c4b2a50489b54af510e5c98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FrontScale.cs using Guid(d6b661d0c4b2a50489b54af510e5c98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fb3ca37356bbfbc7372c1f2e96c1b2') in 0.006512 seconds 
-  Import took 0.011123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.259542 seconds.
-  path: Assets/Scripts/camerazoom.cs
-  artifactKey: Guid(9017ee1ca37b5614797c9ea0f6f93e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/camerazoom.cs using Guid(9017ee1ca37b5614797c9ea0f6f93e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184534fcd5ac4f8a57f9208807096d86') in 0.007191 seconds 
-  Import took 0.012390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.035154 seconds.
-  path: Assets/Scripts/CustomLabeling.cs
-  artifactKey: Guid(e976a6f7994c14d4ab9245191293c950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CustomLabeling.cs using Guid(e976a6f7994c14d4ab9245191293c950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf677198f840fc8c44159f29760f7dc') in 0.007020 seconds 
-  Import took 0.011732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020433 seconds.
-  path: Assets/Scripts/CustomLabeling.cs
-  artifactKey: Guid(e976a6f7994c14d4ab9245191293c950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CustomLabeling.cs using Guid(e976a6f7994c14d4ab9245191293c950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf677198f840fc8c44159f29760f7dc') in 0.003068 seconds 
-  Import took 0.008204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.515928 seconds.
-  path: Assets/Scripts/CustomScenario.cs
-  artifactKey: Guid(059400bdaa6c167468b4c495646a6fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CustomScenario.cs using Guid(059400bdaa6c167468b4c495646a6fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f347bd601a3c095deb9e4714c9f98c') in 0.007536 seconds 
-  Import took 0.015421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.752362 seconds.
-  path: Assets/Scripts/TopScale.cs
-  artifactKey: Guid(473c6c943852863468fd16e527249b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TopScale.cs using Guid(473c6c943852863468fd16e527249b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b23f7d5c41ef6d6526c8b1796d2efe') in 0.010374 seconds 
-  Import took 0.015475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.568912 seconds.
-  path: Assets/Scripts/FileLoader.cs
-  artifactKey: Guid(c52eada841d86c34984174a78487d1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FileLoader.cs using Guid(c52eada841d86c34984174a78487d1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cbe6cb20e50f80b3ee29123f5cd08c') in 0.007195 seconds 
-  Import took 0.015562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.713072 seconds.
-  path: Assets/Scripts/LoadData.cs
-  artifactKey: Guid(01d7cf2bbe2c4b24b88fd16fc039de12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LoadData.cs using Guid(01d7cf2bbe2c4b24b88fd16fc039de12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd6316d514eb0c0d086a77dce215670') in 0.007830 seconds 
-  Import took 0.013036 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.743354 seconds.
-  path: Assets/Scripts/PlacementRandomizer.cs
-  artifactKey: Guid(85830c3dc36978b4d81652f920abd6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlacementRandomizer.cs using Guid(85830c3dc36978b4d81652f920abd6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7068bd91bfc5c22e3720ab5995cfa9c') in 0.008035 seconds 
-  Import took 0.013476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.085488 seconds.
-  path: Assets/Scripts/NextScene.cs
-  artifactKey: Guid(f3339c9af813f224986074cacda2c25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NextScene.cs using Guid(f3339c9af813f224986074cacda2c25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afcebddc25a988c3592b54dde73175f') in 0.007112 seconds 
-  Import took 0.012271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.972955 seconds.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(3560d25ea91f3924c902533a27ceda22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenu.cs using Guid(3560d25ea91f3924c902533a27ceda22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108f7dbd7269d212ce5c93964b02b8f7') in 0.007437 seconds 
-  Import took 0.012845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000703 seconds.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(3560d25ea91f3924c902533a27ceda22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenu.cs using Guid(3560d25ea91f3924c902533a27ceda22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108f7dbd7269d212ce5c93964b02b8f7') in 0.003309 seconds 
-  Import took 0.009264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1148.602636 seconds.
-  path: Assets/Scripts/CustomLabeling.cs
-  artifactKey: Guid(e976a6f7994c14d4ab9245191293c950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CustomLabeling.cs using Guid(e976a6f7994c14d4ab9245191293c950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4bf801f0a71ae6169899f539b7e35f1') in 0.007018 seconds 
-  Import took 0.013509 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012744 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 64.43 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-TriLib is configured to use the 'UniversalRPMaterialMapper' Material Mapper. If you want to use different Material Mappers, you can change this setting on the Project Settings/TriLib area.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:38)
-
-(Filename: Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs Line: 38)
-
-CreateSerializedAsset is not supported while importing out-of-process
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/TriLibSettings.cs:35)
-TriLibCore.TriLibSettings:SetBool (string,bool) (at Assets/TriLib/TriLibCore/Scripts/TriLibSettings.cs:69)
-TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:39)
-
-[Assets/TriLib/TriLibCore/Scripts/TriLibSettings.cs line 35]
-
-UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00039] in C:\Users\Boon Kong\AppData\Local\GitHubDesktop\app-2.9.0\SyntheticData\Strawberries\Assets\TriLib\TriLibCore\Scripts\TriLibSettings.cs:35 
-  at TriLibCore.TriLibSettings.SetBool (System.String key, System.Boolean value) [0x00000] in C:\Users\Boon Kong\AppData\Local\GitHubDesktop\app-2.9.0\SyntheticData\Strawberries\Assets\TriLib\TriLibCore\Scripts\TriLibSettings.cs:69 
-  at TriLibCore.Editor.CheckMappers.Initialize () [0x00076] in C:\Users\Boon Kong\AppData\Local\GitHubDesktop\app-2.9.0\SyntheticData\Strawberries\Assets\TriLib\TriLibCore\Editor\Scripts\CheckMappers.cs:39 
-
-(Filename: Assets/TriLib/TriLibCore/Scripts/TriLibSettings.cs Line: 35)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.906 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 192.5 MB.
-System memory in use after: 189.5 MB.
-
-Unloading 486 unused Assets to reduce memory usage. Loaded Objects now: 3860.
-Total: 3.950400 ms (FindLiveObjects: 0.335500 ms CreateObjectMapping: 0.182300 ms MarkObjects: 2.457700 ms  DeleteObjects: 0.972600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012719 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-TriLib is configured to use the 'UniversalRPMaterialMapper' Material Mapper. If you want to use different Material Mappers, you can change this setting on the Project Settings/TriLib area.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:38)
-
-(Filename: Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs Line: 38)
-
-CreateSerializedAsset is not supported while importing out-of-process
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/TriLibSettings.cs:35)
-TriLibCore.TriLibSettings:SetBool (string,bool) (at Assets/TriLib/TriLibCore/Scripts/TriLibSettings.cs:69)
-TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:39)
-
-[Assets/TriLib/TriLibCore/Scripts/TriLibSettings.cs line 35]
-
-UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00039] in C:\Users\Boon Kong\AppData\Local\GitHubDesktop\app-2.9.0\SyntheticData\Strawberries\Assets\TriLib\TriLibCore\Scripts\TriLibSettings.cs:35 
-  at TriLibCore.TriLibSettings.SetBool (System.String key, System.Boolean value) [0x00000] in C:\Users\Boon Kong\AppData\Local\GitHubDesktop\app-2.9.0\SyntheticData\Strawberries\Assets\TriLib\TriLibCore\Scripts\TriLibSettings.cs:69 
-  at TriLibCore.Editor.CheckMappers.Initialize () [0x00076] in C:\Users\Boon Kong\AppData\Local\GitHubDesktop\app-2.9.0\SyntheticData\Strawberries\Assets\TriLib\TriLibCore\Editor\Scripts\CheckMappers.cs:39 
-
-(Filename: Assets/TriLib/TriLibCore/Scripts/TriLibSettings.cs Line: 35)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.691 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 192.5 MB.
-System memory in use after: 189.4 MB.
-
-Unloading 486 unused Assets to reduce memory usage. Loaded Objects now: 3866.
-Total: 4.542000 ms (FindLiveObjects: 0.384600 ms CreateObjectMapping: 0.222300 ms MarkObjects: 2.915600 ms  DeleteObjects: 1.018600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012792 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Refreshing native plugins compatible for Editor in 0.91 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3681 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.2 MB.
+System memory in use after: 189.3 MB.
+
+Unloading 406 unused Assets to reduce memory usage. Loaded Objects now: 3855.
+Total: 3.817400 ms (FindLiveObjects: 0.327900 ms CreateObjectMapping: 0.188200 ms MarkObjects: 2.433500 ms  DeleteObjects: 0.866600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/SceneEnd.cs
+  artifactKey: Guid(ea130d8385d26834b9eb620df48f17a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneEnd.cs using Guid(ea130d8385d26834b9eb620df48f17a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9023779fce8cd988d9090722af5ce081') in 0.020940 seconds 
+  Import took 0.032024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.192932 seconds.
+  path: Assets/Scenes/JnJ/Full.unity
+  artifactKey: Guid(b4b65b4ae7c4c9049a64d494557e52cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JnJ/Full.unity using Guid(b4b65b4ae7c4c9049a64d494557e52cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5251e063f379e87d005d5fcf48cc1cb') in 0.009074 seconds 
+  Import took 0.014546 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012676 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 TriLib is configured to use the 'UniversalRPMaterialMapper' Material Mapper. If you want to use different Material Mappers, you can change this setting on the Project Settings/TriLib area.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -336,17 +128,17 @@ UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLib
 (Filename: Assets/TriLib/TriLibCore/Scripts/TriLibSettings.cs Line: 35)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.188 seconds
+- Completed reload, in  2.585 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 192.5 MB.
-System memory in use after: 189.5 MB.
+Unloading 3518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.3 MB.
+System memory in use after: 177.5 MB.
 
-Unloading 486 unused Assets to reduce memory usage. Loaded Objects now: 3872.
-Total: 4.543300 ms (FindLiveObjects: 0.359100 ms CreateObjectMapping: 0.231500 ms MarkObjects: 2.964600 ms  DeleteObjects: 0.986900 ms)
+Unloading 397 unused Assets to reduce memory usage. Loaded Objects now: 3861.
+Total: 4.104700 ms (FindLiveObjects: 0.320400 ms CreateObjectMapping: 0.177600 ms MarkObjects: 2.794400 ms  DeleteObjects: 0.811300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -358,4 +150,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 179.210456 seconds.
+  path: Assets/Scenes/JnJ/Main Menu.unity
+  artifactKey: Guid(f03a84304fbb8224bb3acff723738b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JnJ/Main Menu.unity using Guid(f03a84304fbb8224bb3acff723738b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25aae17da7d24ac4fd5e331acabd7b54') in 0.021789 seconds 
+  Import took 0.027334 seconds .
+

@@ -16,17 +16,17 @@ public class MainMenu : MonoBehaviour
     public GameObject toggle6;
     public GameObject toggle7;
     */
-    public string myPath;
+    // public string myPath;
 
-    public void SetPath()
-    {
-        // save output folder path to play preferences
-        // all scenes will use the same path
-        string template = @"C:\Users\Boon Kong\Desktop\synthetic_data\{0}";
-        string message = string.Format(template, myPath);
+    //public void SetPath()
+    //{
+    //    // save output folder path to play preferences
+    //    // all scenes will use the same path
+    //    string template = @"C:\Users\Boon Kong\Desktop\synthetic_data\{0}";
+    //    string message = string.Format(template, myPath);
 
-        PlayerPrefs.SetString("path", message);
-    }
+    //    PlayerPrefs.SetString("path", message);
+    //}
 
     // Start is called before the first frame update
     void Start()

@@ -10,7 +10,7 @@ public class CustomScenario : FixedLengthScenario
     {   
         // Debug.Log($"The no. of randomizers is {randomizers.Count}");
         // Restart();
-        // GetComponent<SceneEnd>().ScenarioEnd();
+        GetComponent<SceneEnd>().ScenarioEnd();
     }
 
     protected override void OnIterationEnd()

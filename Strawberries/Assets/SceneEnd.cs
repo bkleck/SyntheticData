@@ -25,28 +25,8 @@ public class SceneEnd : MonoBehaviour
         // disable the Scenario once it ends, to prevent auto shutdown of application
         GetComponent<CustomScenario>().enabled = false;
 
-        string Scenes = PlayerPrefs.GetString("Scenes");
-        int Count = PlayerPrefs.GetInt("Count");
-
-        // If count less than length of string, we continue indexing
-        // else we just go back to main menu
-        if (Count < Scenes.Length)
-        {
-            // Get the scene to run by indexing the characters in the string according to current count
-            // then converting to int
-            int RunScene = (int)Char.GetNumericValue(Scenes[Count]);
-            SceneManager.LoadSceneAsync(RunScene);
-            Debug.Log("Next scene loaded");
-            SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene());
-
-            // After loading the scene, increase the count in PlayerPrefs
-            PlayerPrefs.SetInt("Count", ++Count);
-        }
-
-        else
-        {
-            SceneManager.LoadScene(0);
-        }
+        // go back to main menu
+        SceneManager.LoadScene(0);
     }
 
     public bool OnSceneEnd()
